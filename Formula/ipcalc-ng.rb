@@ -5,6 +5,12 @@ class IpcalcNg < Formula
   sha256 "451f323764f37ea6057e0ade60a0473938232ab2a92b97ffdc8c4860a8c76cfc"
   license "GPL-2.0-or-later"
 
+  bottle do
+    root_url "https://ghcr.io/v2/domrim/tap"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "81c848c37f96881b66d8474ef103ee472b9fe3676c626629de1a2d8a51f60f43"
+    sha256 cellar: :any,                 x86_64_linux: "a53a2b1915dbcd2cdb05366757e92da0302fea8e9090c206222c4e15b4064851"
+  end
+
   depends_on "meson" => :build
   depends_on "ninja" => :build
 
