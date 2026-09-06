@@ -13,6 +13,12 @@ class SshVerifyAttestation < Formula
     regex(/href=.*?openssh[._-]v?(\d+(?:\.\d+)+(?:p\d+)?)\.t/i)
   end
 
+  bottle do
+    root_url "https://ghcr.io/v2/domrim/tap"
+    sha256 arm64_tahoe:  "e4f7f4b690130ff488faa626054b75023abf40ef3161597429d87da73bd8bf7a"
+    sha256 x86_64_linux: "a00dd7ec1c128d27524f50d96148f833c2eedd25fff6d65e0aa852da1620a136"
+  end
+
   # Please don't resubmit the keychain patch option. It will never be accepted.
   # https://archive.is/hSB6d#10%25
 
