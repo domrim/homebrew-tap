@@ -13,6 +13,12 @@ class Guira < Formula
     end
   end
 
+  bottle do
+    root_url "https://ghcr.io/v2/domrim/tap"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "fcf4dc0ac740246e5bc4f3b96bb79003cf3c20b3fd8291ce7d214e77d0044c80"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "552c88d996cbf1ef9a79fdf27b7718aa45f5cfcbe84376d6c6e19433231b8b6a"
+  end
+
   depends_on "openjdk"
 
   def install
