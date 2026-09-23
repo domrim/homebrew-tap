@@ -1,6 +1,6 @@
 cask "mactrix" do
-  version "0.3.0"
-  sha256 "638c9d8a119218a3570dab735bf7292584b59708e790876156d76bf98e5e69ad"
+  version "0.4.0"
+  sha256 "dd232f872214c859645971a3c33f7ab3867e6bb3c6fd7d76ccf1fc124cd5e9fc"
 
   url "https://github.com/viktorstrate/mactrix/releases/download/v#{version}/Mactrix.app.zip"
   name "Mactrix"
