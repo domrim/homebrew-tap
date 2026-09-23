@@ -1,11 +1,8 @@
 cask "tammy" do
-  arch arm: "arm64", intel: "x64"
+  version "26.9.2"
+  sha256 "93f266312ecb405f9b362076ffe207f6f738db524e0922eb022c6dde43c275d6"
 
-  version "26.9.0"
-  sha256 arm:   "b0d7847ad9a1b287930f086e05c7e9f8def424701fdfa0cdc5057addb7ffdb28",
-         intel: "b8eb30d9d39ef5f3523188c91c1843a894ca1278a37983c8b34d9783ad61342a"
-
-  url "https://gitlab.com/api/v4/projects/61851918/packages/generic/Tammy-MacOS-#{arch}.dmg/#{version}/Tammy-MacOS-#{arch}-#{version}.dmg"
+  url "https://gitlab.com/api/v4/projects/61851918/packages/generic/Tammy-MacOS-arm64.dmg/#{version}/Tammy-MacOS-arm64-#{version}.dmg"
   name "Tammy"
   desc "Fast and secure Matrix messenger"
   homepage "https://tammy.connect2x.de/"
@@ -14,6 +11,7 @@ cask "tammy" do
     url "https://gitlab.com/connect2x/tammy.git"
   end
 
+  depends_on arch: :arm64
   depends_on :macos
 
   app "Tammy.app"
