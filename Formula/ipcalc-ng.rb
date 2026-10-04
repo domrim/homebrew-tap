@@ -7,8 +7,8 @@ class IpcalcNg < Formula
 
   bottle do
     root_url "https://ghcr.io/v2/domrim/tap"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "81c848c37f96881b66d8474ef103ee472b9fe3676c626629de1a2d8a51f60f43"
-    sha256 cellar: :any,                 x86_64_linux: "a53a2b1915dbcd2cdb05366757e92da0302fea8e9090c206222c4e15b4064851"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "890edb19a93a46a281c791c2e8a0c8db6ad1be25bf764ddf1b87258909098b3f"
+    sha256 cellar: :any,                 x86_64_linux: "597adad30442a08125858006dd4acc2ddb84b6648949c9722861602e8eaa24f9"
   end
 
   depends_on "meson" => :build
