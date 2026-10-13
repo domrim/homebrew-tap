@@ -5,6 +5,11 @@ class ElementProfiles < Formula
   sha256 "bfc528f849d226a4198de01992fff11082124dd1c07c24fa68165a36a2affd68"
   head "https://gitlab.com/collective-ai-slop/element-profiles.git", branch: "main"
 
+  bottle do
+    root_url "https://ghcr.io/v2/domrim/tap"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe: "409455f97863dc082b452297411e741a37b604663510f00a277f05f7a6c0bf48"
+  end
+
   depends_on xcode: :build
   depends_on :macos
   uses_from_macos "swift", since: :tahoe # Swift 6.2
