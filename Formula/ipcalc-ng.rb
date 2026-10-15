@@ -1,8 +1,8 @@
 class IpcalcNg < Formula
   desc "Modern IPv4/IPv6 ipcalc tool"
   homepage "https://gitlab.com/ipcalc/ipcalc"
-  url "https://gitlab.com/ipcalc/ipcalc/-/archive/1.1.0/ipcalc-1.1.0.tar.gz"
-  sha256 "8913d43ec30433ef31b57cd014034ce17349bf7ff997e198e6a0dc092207ad34"
+  url "https://gitlab.com/ipcalc/ipcalc/-/archive/1.2.0/ipcalc-1.2.0.tar.gz"
+  sha256 "f6fc9076d3f1a64d1e050e1d6edd3fd61b91db71d0dfa1d9d184618e81865747"
   license "GPL-2.0-or-later"
 
   bottle do
