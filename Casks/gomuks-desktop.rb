@@ -1,6 +1,6 @@
 cask "gomuks-desktop" do
-  version "26.09.0"
-  sha256 "f31a39daa8b0f581eae45c7e100719b1b0fe931fcc3c7f289b4d49e538816a4e"
+  version "26.10.0"
+  sha256 "660df0a958aab89fdd65635d25ab2dfeb7d8ab5ed6f6821a6bd2bc08b2be957b"
 
   url "https://update.gomuks.app/desktop-stable/darwin/arm64/gomuks-desktop-#{version}-arm64.dmg"
   name "gomuks-desktop"
