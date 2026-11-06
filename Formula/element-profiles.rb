@@ -7,7 +7,7 @@ class ElementProfiles < Formula
 
   bottle do
     root_url "https://ghcr.io/v2/domrim/tap"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe: "409455f97863dc082b452297411e741a37b604663510f00a277f05f7a6c0bf48"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe: "2337cdb9c5ddec425c6df433cd5f9e671aaa88e984caee404fc6831146e3804b"
   end
 
   depends_on xcode: :build
