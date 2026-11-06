@@ -1,8 +1,8 @@
 class ElementProfiles < Formula
   desc "Manage per-account Element (Matrix) profile applications with custom icons"
   homepage "https://gitlab.com/collective-ai-slop/element-profiles"
-  url "https://gitlab.com/collective-ai-slop/element-profiles/-/archive/v0.4.1/element-profiles-v0.4.1.tar.gz"
-  sha256 "bfc528f849d226a4198de01992fff11082124dd1c07c24fa68165a36a2affd68"
+  url "https://gitlab.com/collective-ai-slop/element-profiles/-/archive/v0.5.0/element-profiles-v0.5.0.tar.gz"
+  sha256 "b03a668f36fa137cbe6472b5c9e14eda9af92f036ab4ae49046adf42cc3d09e7"
   head "https://gitlab.com/collective-ai-slop/element-profiles.git", branch: "main"
 
   bottle do
