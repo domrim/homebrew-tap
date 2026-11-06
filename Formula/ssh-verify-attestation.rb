@@ -15,8 +15,8 @@ class SshVerifyAttestation < Formula
 
   bottle do
     root_url "https://ghcr.io/v2/domrim/tap"
-    sha256 arm64_tahoe:  "15e57cc09daae49e792c73d002f92477f613ac4ae27654e95282ceac0f8f2a3d"
-    sha256 x86_64_linux: "b13062caccc6c10727687dcdbffc683f9ccb028e575f125ee06c9c3bcc2377c0"
+    sha256 arm64_tahoe:  "3f770bfe38eb4caa240e6dd05711638f510ee60b1618eb013f1752eb9a29f731"
+    sha256 x86_64_linux: "343f4628fb190a1d73cee1ff8d3f96dd4e5a2f4f9e084493be728f77288b1283"
   end
 
   # Please don't resubmit the keychain patch option. It will never be accepted.
