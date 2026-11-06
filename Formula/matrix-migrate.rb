@@ -8,8 +8,8 @@ class MatrixMigrate < Formula
 
   bottle do
     root_url "https://ghcr.io/v2/domrim/tap"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "7a5c6f0332ed5cbc1f8d9f26c05ece218ac0f8d297a5a99d09ad009a7e9ca727"
-    sha256 cellar: :any,                 x86_64_linux: "120834d70f6af9eb75ee60124e89b095f6c294efd6673289bf7af5eb77cd23d6"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "b6904bdaae25f94d85ce58904f0c6e39b9af96c69997b4061899366df45393e9"
+    sha256 cellar: :any,                 x86_64_linux: "e37a0ddcc650a6cd468b91896752333ede6bc5ad542f33d5c5a1bd7eadbcdad5"
   end
 
   depends_on "rust" => :build
