@@ -9,8 +9,9 @@ class Kubeone < Formula
 
   bottle do
     root_url "https://ghcr.io/v2/domrim/tap"
-    manifest_sha256 "54c0da52e9605220d19cc5478b148f66dbd4c4e3f93a9f340baad52e6d3b9f63"
-    sha256 cellar: :any, x86_64_linux: "c2a6b01553e6603ad3292a6f1a21dea218d29b84abdcaf4ca5170340a5dbf21f"
+    manifest_sha256 "784f4551e1fbe5841c7df64acf7264bbd0535323e404cafedf89eaae35be1967"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "f99e075f4cec823e701b75749f49c5bacf53bb451f8eadd24ed6e22b0b2df688"
+    sha256 cellar: :any,                 x86_64_linux: "d0b21c137400caff916af19f3237d5a6cbc2c768fa27bfc6a34636758fbaeaa1"
   end
 
   depends_on "go" => :build
