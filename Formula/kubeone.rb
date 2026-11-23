@@ -4,7 +4,7 @@ class Kubeone < Formula
   url "https://github.com/kubermatic/kubeone/archive/refs/tags/v1.15.0.tar.gz"
   sha256 "f7614214f85da4c652e1aa6882ae9e1edae8d6d558e7eb93306dc37c2c5515c2"
   license "Apache-2.0"
-  revision 2
+  revision 3
   head "https://github.com/kubermatic/kubeone.git", branch: "main"
 
   bottle do
