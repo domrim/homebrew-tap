@@ -7,6 +7,12 @@ class Kubeone < Formula
   revision 1
   head "https://github.com/kubermatic/kubeone.git", branch: "main"
 
+  bottle do
+    root_url "https://ghcr.io/v2/domrim/tap"
+    manifest_sha256 "54c0da52e9605220d19cc5478b148f66dbd4c4e3f93a9f340baad52e6d3b9f63"
+    sha256 cellar: :any, x86_64_linux: "c2a6b01553e6603ad3292a6f1a21dea218d29b84abdcaf4ca5170340a5dbf21f"
+  end
+
   depends_on "go" => :build
 
   conflicts_with "kubeone", because: "same formula, different version"
